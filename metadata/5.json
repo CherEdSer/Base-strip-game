@@ -1,0 +1,13 @@
+{
+  "name": "Base Strip Game — Eva & Kira (Final)",
+  "description": "Minted on Base after reaching Stage 3 in Base Strip Game. Open edition. Fixed price mint: 0.0001 ETH.",
+  "image": "ipfs://bafybeieskzc5lfpl33s6gkx6bmpw4vhcaovqabid5spjdcnqk2ut2yxzty/EvaKira4.jpg",
+  "attributes": [
+    { "trait_type": "Character", "value": "Eva & Kira" },
+    { "trait_type": "Stage", "value": "Final" },
+    { "trait_type": "Edition", "value": "Open" },
+    { "trait_type": "Mint Price (ETH)", "value": "0.0001" },
+    { "trait_type": "Chain", "value": "Base" }
+  ]
+}
+
