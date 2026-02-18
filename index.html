@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Strip Game</title>
+    <meta
+      name="description"
+      content="Pick a character, win mini-games, reach stage 3, and mint an NFT on Base."
+    />
+
+    <!-- Open Graph / Farcaster preview -->
+    <meta property="og:title" content="Base Strip Game" />
+    <meta
+      property="og:description"
+      content="Pick a character, win mini-games, reach stage 3, and mint an NFT on Base."
+    />
+    <meta property="og:type" content="website" />
+    <!-- og:image can be added later (public/og.png) -->
+
+    <!-- Farcaster Mini App embed (makes the URL shareable as a rich card) -->
+    <meta
+      name="fc:miniapp"
+      content='{"version":"1","imageUrl":"https://placehold.co/1200x800/png?text=Base+Strip+Game","button":{"title":"Play","action":{"type":"launch_miniapp","url":"https://base-strip-game.vercel.app","name":"Base Strip Game","splashImageUrl":"https://placehold.co/200x200/png?text=BSG","splashBackgroundColor":"#0b1220"}}}'
+    />
+    <!-- Backward compatibility -->
+    <meta
+      name="fc:frame"
+      content='{"version":"1","imageUrl":"https://placehold.co/1200x800/png?text=Base+Strip+Game","button":{"title":"Play","action":{"type":"launch_frame","url":"https://base-strip-game.vercel.app","name":"Base Strip Game","splashImageUrl":"https://placehold.co/200x200/png?text=BSG","splashBackgroundColor":"#0b1220"}}}'
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Base Strip Game" />
+    <meta
+      name="twitter:description"
+      content="Pick a character, win mini-games, reach stage 3, and mint an NFT on Base."
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
